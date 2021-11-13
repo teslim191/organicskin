@@ -61,7 +61,7 @@ if (isset($_GET["id"])) {
                 </div>
                 <div class="row mt-5">
                     <div class="col-md-8">
-                        <h4 class="text-justify"><?php echo $body;?></h4>
+                        <p class="text-justify"><?php echo $body;?></p>
                     </div>
                     <div class="col-md-4">
                         <div class="fb-page" data-href="https://web.facebook.com/ABIs-skincare-101322955361805" data-small-header="false"
