@@ -109,10 +109,10 @@ if (isset($_GET["id"])) {
         <li>
             <span style="font-size: 1.1em;font-weight: 700;">Share:</span>
             <a href="http://www.linkedin.com/shareArticle?mini=true&url=<?php echo $baseUrl.$slug; ?>"><i class="fab fa-linkedin-in px-2"></i></a>
-            <a href="http://www.facebook.com/sharer.php?u=<?php echo $baseUrl.$slug; ?>"><i class="fab fa-facebook fa-2x px-2"></i></a>
-            <a href="#"><i class="fab fa-twitter fa-2x px-2"></i></a>
-            <a href="whatsapp://send?text=<?php echo $baseUrl.$slug; ?>"><i class="fab fa-whatsapp fa-2x px-2"></i></a>
-            <!-- <a href="#"><i class="fab fa-instagram fa-2x"></i></a> -->
+            <a href="http://www.facebook.com/sharer.php?u=<?php echo $baseUrl.$slug; ?>"><i class="fab fa-facebook px-2"></i></a>
+            <a href="#"><i class="fab fa-twitter px-2"></i></a>
+            <a href="whatsapp://send?text=<?php echo $baseUrl.$slug; ?>"><i class="fab fa-whatsapp px-2"></i></a>
+            <!-- <a href="#"><i class="fab fa-instagram"></i></a> -->
         </li>
     </ul>
 </div>
