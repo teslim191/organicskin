@@ -93,7 +93,7 @@ if (isset($_GET["id"])) {
                                 $id = $arr["id"];
                                 $title = $arr["title"];
 
-                                $baseUrl = "https://organicskin.herokuapp/";
+                                $baseUrl = "https://organicskin.herokuapp.com/";
                                 $slug = "viewpost.php?id=$id";
                             }
                         }
