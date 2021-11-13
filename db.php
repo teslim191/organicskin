@@ -5,9 +5,9 @@
 // $db = "skincare";
 
 $server = "lyn7gfxo996yjjco.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$user = "v1h76ejleii4127e";
-$password = "xpuo2yxhqo9kpr2s";
-$db = "irmyktd035tgsoep";
+$user = "gl7vuvvo1q9tof8f";
+$password = "ytpguptakixn7aqw";
+$db = "v61ocarchuuz9mm9";
 
 
 
