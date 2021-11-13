@@ -93,7 +93,7 @@ if (isset($_GET["id"])) {
                                 $id = $arr["id"];
                                 $title = $arr["title"];
 
-                                $baseUrl = "http://192.168.43.33/SKINCARE/";
+                                $baseUrl = "https://organicskin.herokuapp/";
                                 $slug = "viewpost.php?id=$id";
                             }
                         }
@@ -107,8 +107,8 @@ if (isset($_GET["id"])) {
     <ul class="social-icons">
         
         <li>
-            <span style="font-size: 1.5em;font-weight: 900;">Share:</span>
-            <a href="http://www.linkedin.com/shareArticle?mini=true&url=<?php echo $baseUrl.$slug; ?>"><i class="fab fa-linkedin-in fa-2x px-2"></i></a>
+            <span style="font-size: 1.1em;font-weight: 700;">Share:</span>
+            <a href="http://www.linkedin.com/shareArticle?mini=true&url=<?php echo $baseUrl.$slug; ?>"><i class="fab fa-linkedin-in px-2"></i></a>
             <a href="http://www.facebook.com/sharer.php?u=<?php echo $baseUrl.$slug; ?>"><i class="fab fa-facebook fa-2x px-2"></i></a>
             <a href="#"><i class="fab fa-twitter fa-2x px-2"></i></a>
             <a href="whatsapp://send?text=<?php echo $baseUrl.$slug; ?>"><i class="fab fa-whatsapp fa-2x px-2"></i></a>
