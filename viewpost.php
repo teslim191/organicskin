@@ -50,7 +50,7 @@ if (isset($_GET["id"])) {
             <?php include "header.php";  ?>
 
             <div class="container">
-                <h2><?php echo strtoupper($title);?></h2>
+                <h3><?php echo strtoupper($title);?></h3>
                 <div class="container">
                     <ul>
                         <li>
