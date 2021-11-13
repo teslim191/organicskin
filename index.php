@@ -85,7 +85,7 @@ $this_page_first_result = ($page - 1)* $result_per_page;
 $previous =$page - 1;
 $next = $page + 1;
 
-$sql = "SELECT * FROM posts LIMIT " . $this_page_first_result . ',' . $result_per_page;
+$sql = "SELECT * FROM posts ORDER BY date_created LIMIT " . $this_page_first_result . ',' . $result_per_page;
 $result = mysqli_query($con, $sql);
 $number_of_results = mysqli_num_rows($result); 
     while ($arr=mysqli_fetch_array($result)) {
