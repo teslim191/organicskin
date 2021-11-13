@@ -16,7 +16,7 @@ $con = mysqli_connect($server,$user,$password,$db);
 if (!$con) {
     die("unable to connect to database" . mysqli_connect_error());
 }
-echo "database connected successfully";
+// echo "database connected successfully";
 
 
 
