@@ -162,7 +162,7 @@ $number_of_results = mysqli_num_rows($result);
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h6>Our Services</h6>
+                        <h2>Our Services</h2>
                     </div>
                 </div> 
             </div> 
